@@ -1,6 +1,12 @@
 # totrash
 
-A new Flutter project.
+Our Application is essentially an organized location for items with an expiry date that provides a simple,
+easy way to add products to it and view whether they have expired, will expire, or are not expiring soon.
+It also provides users with the option to upload the product information in multiple ways including
+through manual data entry, scanning barcodes or capturing/uploading photos. Furthermore, to provide
+users with a quick way to view expiry dates in one place, users are also allowed the option to view a
+calendar with their uploaded product expiry dates listed and to sync that calendar with a pre-existing
+one as well.
 
 ## Getting Started
 
