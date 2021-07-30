@@ -10,13 +10,25 @@ one as well.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+Here I have developed a barcode functionality to scan the barcodes of the products and fetch the product ID.
 
-A few resources to get you started if this is your first Flutter project:
+To run the flutter app please install the flutter and dart plugins on your VS code.
+Once setting up is done pull the code from this GITHUB repository or download a Zip file and open the folder in VS code.
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+### IDE run args/configuration
+To set this up in your IDE of choice, you can use:
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Android Studio: "Edit Configurations" (in your run configurations) → "Additional run args".
+VS Code: search for "Flutter run additional args" in your user settings.
+In both cases, add --no-sound-null-safety.
+
+Once the above steps are followed please run the below command in your terminal:
+flutter run --no-sound-null-safety
+
+Now you are all set to launch the application.
+Please connect your android mobile using debug mode and allow the USB debugging permission.
+
+Go ahead and run the application it may take few moments to build the gradle file and install the apk on your device once your application is launched you are good to use it.
+
+Thank you for visiting my repo.
+
